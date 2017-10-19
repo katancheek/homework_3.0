@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type = "text/css">
+      body {
+        background-image: url(pics/plants.jpg); 
+        background-attachment: fixed;
+        background-size: 100%;
+      }
+      .registration {
+      margin: 20%;
+      background: white;
+      text-align: center
+      }
+      h1 {
+      font color="gray" face="roboto-bold";
+      face="roboto";
+      }
+      .knopka {
+      background: green
+      }
+	</style>
+  </head>
+  <body>
+    <div class="registration"><h1> п р о с т</h1>
+    <div class="p"><p>к л и к у х а</p>
+	<input type="text" name="name" placeholder="name">
+	<br>
+	<br>
+	<p>п о ч т а</p>
+	<input type="email" name="email" placeholder="email">
+	<br>
+	<br>
+	<p>п а р о л ь</p>
+	<input type="password" name="password" placeholder="password">
+	<br>
+	<br>
+	<input type="submit" name="submit" id="knopka">
+	<br>
+	<br>
+	<br>
+	</div>
+	</div>
+  </body>
+</html>
